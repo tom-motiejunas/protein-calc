@@ -1,0 +1,33 @@
+.dashboard-container {
+  margin: 1rem 7.2rem;
+  display: flex;
+  flex-direction: column;
+}
+.dashboard-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+.upper .dashboard-item {
+  flex: 1;
+  height: 356px;
+  background-color: #c4c4c4;
+}
+.upper .dashboard-item:first-child {
+  flex: 2;
+  margin-right: 5.2rem;
+}
+
+.lower .dashboard-item {
+  flex: 1;
+  margin: 3rem 0;
+  height: 225px;
+  background-color: #c4c4c4;
+}
+.lower .dashboard-item:first-child {
+  margin-right: 5.2rem;
+}
+.lower .dashboard-item:last-child {
+  margin-left: 5.2rem;
+}

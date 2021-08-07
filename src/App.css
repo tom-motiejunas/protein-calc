@@ -1,0 +1,18 @@
+.App {
+  display: flex;
+  flex-direction: row;
+}
+main {
+  width: 100%;
+  margin-left: 25.6rem;
+}
+.logo {
+  padding: 1rem;
+  font-size: 40px;
+  text-align: center;
+}
+.section-header {
+  text-align: start;
+  font-size: 26px;
+  margin: 3rem 7rem;
+}

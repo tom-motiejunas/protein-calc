@@ -1,0 +1,38 @@
+@font-face {
+  font-family: "Sportage";
+  src: url("./assets/font/SportageDemoitalic-p735r.otf");
+}
+
+#newfont {
+  font-family: "EntezareZohoor2";
+}
+
+:root {
+  --primary-color: #94c973;
+  --secondary-color: #b1d8b7;
+  --tertiary-color: #76b947;
+  --text-color: #2f5233;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* Makes it so that rem units = 10px */
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Sportage", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
+    "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
