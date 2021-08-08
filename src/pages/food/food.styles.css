@@ -1,0 +1,19 @@
+.food-page h2 {
+  font-size: 30px;
+  margin: 2.5rem 10rem 0.5rem 10rem;
+}
+.food-page h2:first-child {
+  margin-top: 3rem;
+}
+.meal {
+  display: flex;
+  flex-direction: row;
+  margin: 0rem 7.85rem;
+  height: 240px;
+}
+.meal div {
+  flex: 1;
+  height: 200px;
+  margin: 2.15rem;
+  background-color: #c4c4c4;
+}
