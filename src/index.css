@@ -1,3 +1,10 @@
+:root {
+  --primary-color: #2f5233
+  --secondary-color: #b1d8b7
+  --tertiary-color: #94c973
+  --darker-color: #b1d8b7
+}
+
 @font-face {
   font-family: "Sportage";
   src: url("./assets/font/SportageDemoitalic-p735r.otf");

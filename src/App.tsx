@@ -12,15 +12,15 @@ function App() {
   return (
     <div className="App">
       <SideNav></SideNav>
-      {/* <main>
+      <main>
         <h1 className="logo">Proteinfy</h1>
         <Stats></Stats>
         <h2 className="section-header">Dashboard</h2>
         <Dashboard></Dashboard>
         <BigStat></BigStat>
         <Footer></Footer>
-      </main> */}
-      <FoodPage></FoodPage>
+      </main>
+      {/* <FoodPage></FoodPage> */}
     </div>
   );
 }

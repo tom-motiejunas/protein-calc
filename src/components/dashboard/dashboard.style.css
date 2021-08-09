@@ -1,5 +1,5 @@
 .dashboard-container {
-  margin: 1rem 7.2rem;
+  margin: 1rem 7.85rem;
   display: flex;
   flex-direction: column;
 }
@@ -13,21 +13,15 @@
   flex: 1;
   height: 356px;
   background-color: #c4c4c4;
+  margin: 0 2.15rem;
 }
 .upper .dashboard-item:first-child {
   flex: 2;
-  margin-right: 5.2rem;
 }
 
 .lower .dashboard-item {
   flex: 1;
-  margin: 3rem 0;
+  margin: 3rem 2.15rem;
   height: 225px;
   background-color: #c4c4c4;
-}
-.lower .dashboard-item:first-child {
-  margin-right: 5.2rem;
-}
-.lower .dashboard-item:last-child {
-  margin-left: 5.2rem;
 }
